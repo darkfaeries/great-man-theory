@@ -1,6 +1,8 @@
 #ifndef HERO_H
 #define HERO_H
 
-void makeHero(void);
+class Hero;
+
+Hero* makeHero(void);
 
 #endif
