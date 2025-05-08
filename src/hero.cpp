@@ -4,6 +4,7 @@
 
 using namespace std;
 
-void makeHero() {
-	cout << "the hero awaits your commands." << endl;
+Hero* makeHero() {
+	cout << "no hero awaits your commands." << endl;
+	return nullptr;
 }
